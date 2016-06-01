@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      h1 { font-size: 1em; }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div style="width:60%; display:inline-block;vertical-align: top;margin-right: 10px;">
+      <h1>Mail template</h1>
+      <textarea id="codeInput" rows="24" style="width:100%;"></textarea>
+    </div>
+    <div style="width:39%; display:inline-block;">
+      <h1>Variables (JSON format)</h1>
+      <textarea id="context" rows="10" style="width:100%;"></textarea>
+      <h1>Messages (for load messages.getMessage). The content of property file</h1>
+      <textarea id="properties" rows="10" style="width:100%;"></textarea>
+    </div>
+
+    <iframe id="output" style="width: 100%; height: 400px;"></iframe>
+
+  </body>
+
+  <script src="client/app.js" charset="utf-8"></script>
+</html>
